@@ -8,16 +8,21 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Ariadna Joel Tango</h1>
+                <p>La idea es Afrontar el tango en su conjunto como lo que es, Cultura Identidad, actividad social de integracion, atraccion turistica, herramienta educativa.
+    Se las divide en tres grupos:</p>
+    <ul>    
+        <li>Tango Comercial </li>
+    <li>Impacto Tango </li>
+    <li>Tango TRavelers </li>
+</ul>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Tango Comercial</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Impacto Tango</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>Tango Travelers</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
             </ul>
         </nav>

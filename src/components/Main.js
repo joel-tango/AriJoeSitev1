@@ -16,23 +16,74 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <h3>Tango Taxi dancer:</h3>
+    
+    <p>objetivos: Sera el principal ingreso, cobrar por hora con un minimo de dos horas, se cobran clases privadas.</p>
+    
+    * Acompañar a personas con exp a una milonga, bailar con ellos, hablar.
+    * La ida es ir un par de horas
+    * La entrada, una copa (una consumision) incluida en la entrada
+    * En la semana , se vana  programar calses grupales con el grupo en cuestion o privadas de las personas que hayan contratado.
+    *Ofrecer la mini clase intoductoria  y una salida a la milonga Airbnb.
+    
+    
+    <h3>Tango Presentacions - Shows</h3>
+    
+    <p>objetivo: tercera forma de ingreso, vender un mini show para eventos.</p>
+    <ul>
+    * Preparar canciones de salon para bailar
+    * Preparar una coreografia de escenario para bailar
+    * Preparar una mini representacion, con vestimenta de epoca, donde se baile tango.
+    * Vender una preparacion para sorpresas de cumpleaños, casamientos etc, es decir, enseñar y entrenar a una pareja para que aprenda tango para su casamiento o algun evento.
+    </ul>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          Impacto Tango!
+    
+    Tango Academia :
+    
+    objetivo: Educar a las personas enel tango, como un nuevo pasatiempo. 
+    
+    Llevar el tango la cultura a las escuelas (ver alternativas)
+    
+    * Armar unas clases semanales  creado un grupo que luego se haran salidas para empezar a bailar socialmente.
+    * Preparar una coreo para los alumnos, a fin de año exponerlo en el Algun espacio.
+    
+    Proyecto social:
+    
+    Objetivo: Utilizar la enseñanza del tango como herramienta para el desarrollo de las personas
+    fomentando valores, respeto, igualdad, disciplina, solidaridad, compromiso, conciencia, responsabiidad social, matando esteriotipos y prejuicios.
+    
+    * Dar calses en organizaciones sociales, agrupaciones politicas, una vez por semana.
+    * Hacer presentaciones en centros de la tercera edad, hospitales.
+    * Acompañar la niñez en zonas marginales con tango como acercamiento entre personas.
+    
+    Educacion y el Tango
+    
+    * Llevar el tango a las escuelas, primaria secundaria, Universidades.
+    * Armar un discurso motivacional explicando de que va el tango, presentacion con imagenes, videos etc.
+    * Coordinar con los docentes comprometidos socialmente para yudar en esto.
+    
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          Tango Travelers 
+    
+    objetivo : Difundir el tango, la historia y cultura del mismo para que los viajeros lo lleven y expandan el interes del mismo.
+    Hacer contactos
+    
+    * Armar salidas con viajeros con bajos recursos para mostrar lugares (milongas ,plazas)
+    * En la salida, se les explica de que va el tango, se los lleva a lugares para ver bailar, escuchar orquesta, dar sus primeros pasos.
+    * Se creara un grupo, un site, o una app, donde se actualiza el itinerario de las salidas con un cupo de gente para hacerlas (cuestion de comodidad y organizacion)
+    * Si bien la idea es que sea un espacio de difucion , se a la gorra.
+    
           {close}
         </article>
 
